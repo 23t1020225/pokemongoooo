@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color:#234375;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    box-sizing: border-box;
+}
+@media (max-width: 767px) {
+    .container {
+        padding:  10px; /* Điều chỉnh padding cho các điện thoại */
+    }
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu{
+    width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 10% 80% auto;
+}
+.menu img{
+    width: 100px;
+    padding-left: 20px;
+}
+.menu ul li{
+    padding: 20px;
+    display: inline-block;
+    font-size: 1em;
+   color: azure;
+  
+}
+.menu ul{
+    margin-left: 150px;
+   
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu li{
+height: 20px;
+}
+.logo2{
+    width: 100px;
+    margin-left: 50px;
+}
+.full{
+    opacity: 100px;
+    position: fixed;
+    padding-top: 10px;
+    background-color: rgba(15, 34, 74, 0.8); 
+
+    height: 79px;
+}
+a:hover{
+    padding: 5px;
+    transition-delay: 0.1s;
+    transition: background-color 0.9s ease, color 0.5s ease;
+    border: 2px solid;
+    border-radius: 30px;
+
+}
+a:active{
+    background-color: #ccc;
+    color: #000; 
+}
+.banner img{
+    width: 1600px;
+}
+.logo2 img{
+    width: 50px;
+}
+.logo2 li{
+    margin-left: -90px;
+}
+.infor p{
+    padding-top: 90px;
+    margin: 0 auto;
+    color: aliceblue;
+    width: 1100px;
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.chinh {
+    margin: 0 auto;
+    color: aliceblue;
+    width: 1100px;
+    font-size: 2em;
+    padding: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.chinh1{
+    margin: 0 auto;
+    color: aliceblue;
+    width: 1100px;
+    font-size: 2em;
+    padding: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 90px;
+}
+.ticker{
+    outline: 30px solid rgb(255, 255, 255);
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    width: 1100px;
+    border-radius:80px;
+    grid-template-columns: 1fr 1fr;
+}
+.chu h1{
+font-size: 4em;
+color: #234375;
+}
+.thue{
+    font-size: 1.5em;
+    margin-left: 60px;
+}
+.lehoi{
+    font-size: 2em;
+    color: #234375;
+    font-weight: 600;
+}
+.chuhoa{
+    padding-top: 20px;
+    font-size: 1.5em;
+    color: #234375;
+}
+.sua{
+    font-size: 1.5em;
+    color: #234375;
+}
+.sua2{
+    font-size: 1.5em;
+    color: #234375;
+    padding-bottom: 20px;
+}
+.sua1{
+    padding-top: 30px;
+    font-size: 1.5em;
+    color: #234375;
+}
+.chuhoa1{
+    font-size: 1.5em;
+    color: #234375;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.submit{
+    padding: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #F8D548;
+    font-size: 1.5em;
+}
+.ticker1{
+    padding-top: 60px;
+    width: 500px;
+    margin-left: 30px;
+}
+.scroll-container {
+    width: 100%;                  /* Chiều rộng của khung chứa */
+    overflow-x: auto;             /* Kích hoạt lướt ngang khi nội dung quá dài */
+    white-space: nowrap;          /* Đảm bảo các phần tử con nằm trong một dòng */       /* Đường viền cho khung chứa */
+    border-radius: 10px;          /* Bo góc khung chứa */
+    padding: 10px;                /* Khoảng cách bên trong khung chứa */
+    box-sizing: border-box;       /* Bao gồm padding và border vào kích thước tổng thể */
+            /* Màu nền của khung chứa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    margin: 0px auto;            /* Căn giữa khung chứa trên trang */
+    max-width: 90%;                      
+}
+
+.scroll-item {
+    display: inline-block;        /* Hiển thị các phần tử bên trong theo dòng */
+    width: 460px;                 /* Chiều rộng của mỗi phần tử */
+    height: 450px;                /* Chiều cao của mỗi phần tử */
+    margin-right: 10px;           /* Khoảng cách giữa các phần tử */
+    background: linear-gradient(135deg, #4CAF50, #81C784); /* Gradient nền cho các phần tử */
+    color: white;                 /* Màu chữ của các phần tử */
+    text-align: center;           /* Căn giữa chữ */
+    background: #ffffff;
+    font-size: 18px;              /* Kích thước chữ */
+    border-radius: 8px;           /* Bo góc các phần tử */
+    transition: transform 0.3s, box-shadow 0.3s; /* Hiệu ứng chuyển động */
+}
+.chu2{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.scroll-item h1{
+    padding-top: 30px;
+    color:#234375 ;
+    text-align: center;
+}
+.anh1{
+padding-top: 20px;
+}
+.ab p{
+    color:#234375;
+    font-size: 1.2em;
+}
+.padding{
+    padding-top: 40px;
+}
+.padding1{
+    padding-top: 15px;
+}
+.padding3{
+    padding-top: 15px;
+}
+.padding2{
+    padding-top: 5px;
+}
+.padding4{
+    padding-top: 79px;
+}
+.ab1 h1{
+color:#234375;}
+.chu2 h1{
+    font-size: 3em;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: center;
+}
+.chu2 p{
+    font-size: 1.8em;
+    color: aliceblue;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    height: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Màu của thanh cuộn */
+    border-radius: 6px; /* Bo tròn góc của thanh cuộn */
+    height: 15px; /* Chiều cao của thanh cuộn (chỉ ảnh hưởng đến chiều dọc) */
+  }
+  ::-webkit-scrollbar-track {
+    width: 200px;
+    background: #f7e4e4; /* Màu nền của vùng thanh cuộn */
+    border-radius: 6px; /* Bo tròn góc của vùng thanh cuộn */
+  }
+  .thongtin h1{
+font-size: 3em;
+text-align: center;
+color: aliceblue;
+padding-top: 100px;
+padding-bottom: 50px;
+  }
+  .thongtin p{
+    font-size: 1.8em;
+    text-align: center;
+    color: aliceblue;
+  }
+  .one{
+    padding-top: 40px;
+  }
+  .img1{
+    width: 1600px;
+    padding-top: 100px;
+    text-align: center;
+  }
+.two{
+    padding-top: 50px;
+    font-size: 2.5em;
+text-align: center;
+color: aliceblue;
+}
+.two1{
+    font-size: 2.5em;
+text-align: center;
+color: aliceblue;
+}
+.mega {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logomega{
+    padding: 30px;
+    width: 890px;
+    border: 1px solid rgb(173, 177, 180);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 330px;
+    text-align: center;
+}
+.full-mega p,.full-mega1 p{
+font-size: 1.7em;
+color: aliceblue;
+}
+.full-mega {
+    margin-left: 220px;
+    
+}
+.full-mega1 {
+    margin-left: -240px;
+}
+.full-mega,.full-mega1{
+    padding: 30px;
+}
+.fix2 {
+    font-size: 1.3em;
+    color: rgb(248, 248, 248);
+    width: 100%;
+    margin-left: 210px;
+    padding-bottom: 40px;
+}
+.suachu{
+    font-size: 2.5em;
+text-align: center;
+color: aliceblue;
+}
+.suachu1{
+    font-size: 2.5em;
+    text-align: center;
+    color: aliceblue;
+}
+.suachu2{
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+.okla{
+    color: aliceblue;
+    text-align: center;
+}
+.egg-img,.egg-img1{
+    padding-top: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+.egg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.egg-img1 img{
+    margin-left: -170px;
+}
+.egg-img img{
+    margin-left: 40px;
+}
+
+
